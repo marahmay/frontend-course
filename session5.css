@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 2000px;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    width: 50%;
+    top: 0;
+    left: 150px;
+}
+
+.link{
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+}
+.child-div {
+    background-color: yellow;
+    margin: 50px 10px;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+/* display تتحكم بعرض العناصر داخل الاب
+عنصر غير قايل للمجاورة مع اي شيئ display:block
+display:inline-block تسمح بالتجاور بحال يوجد عرض محدد
+display:flex  عرض مرن ممكن تحت بعض و ممكن جنب بعض حسب ال
+flex-direction
+
+justify-content نتحكم بمكان العناصر يميم او يسار او نص
+end / start / center / flex-end .....
+
+الفرق بين end / flex-end
+flex تتبع للاب (مرنة)
+end ع اليمين دائما بغض النظر عن اتجاه الصفحة
+
+align-items موقع العناصر على محور Y
+
+
+
+
+
+*/

@@ -1,0 +1,13 @@
+.parent{
+    display: flex;
+    border: 2px solid red;
+    justify-content: end;
+}
+
+.child-div{
+    margin: 50px 10px;
+    background-color: rgb(31, 47, 95);
+    width: 100px;
+    color: white;
+    padding: 10px;
+}

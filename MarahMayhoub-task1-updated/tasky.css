@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.parent div:nth-child(1){
+    border-color: black;
+}
